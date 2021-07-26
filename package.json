@@ -1,0 +1,28 @@
+{
+  "name": "lukageirjho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "cerna run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GatitosAlegres/LUKAGEIRJHO.git"
+  },
+  "keywords": [
+    "ecomerce"
+  ],
+  "author": "gatitosalegres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GatitosAlegres/LUKAGEIRJHO/issues"
+  },
+  "homepage": "https://github.com/GatitosAlegres/LUKAGEIRJHO#readme",
+  "dependencies": {
+    "firebase": "^8.8.0"
+  }
+}
