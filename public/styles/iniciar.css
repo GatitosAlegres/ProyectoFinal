@@ -1,0 +1,25 @@
+body{
+    background-image: url(/imagenes/tumbr3.jpg);
+}
+form{
+    width: 20%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    background: #979fa0;  /* fallback for old browsers */
+}
+
+a{
+    color: aliceblue;
+}
+button{
+    color: aliceblue;
+    height: 30px;
+    background: rgb(34, 37, 34);
+    border: none;
+
+}
