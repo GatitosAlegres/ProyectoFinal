@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "cerna run"
+    "build:css": "postcss ./src/tailwind.css -o ./assets/styles/main.css",
+    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./assets/styles/main.css"
   },
   "repository": {
     "type": "git",
