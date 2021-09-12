@@ -26,6 +26,16 @@
     min-width: 100%;
     height: 32rem;
   }
+
+  /* .ImageContainer{
+    background-image: url(../res/drawable/index/Wallpaper.jfif);
+    color: white;
+  } */
+h1{
+  border: red solid 4px;
+
+}
+
   
   
   /* MARKETING CONTENT
