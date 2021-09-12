@@ -7,8 +7,7 @@
   
   /* Carousel base class */
   .carousel {
-    margin-bottom: 4rem;
-    border: red solid 6px;
+    margin-bottom: 5.5rem;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {

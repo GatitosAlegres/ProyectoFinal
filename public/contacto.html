@@ -6,52 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../lib/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/styles/contactanos.css">
 </head>
 <body>
-    <header>
-        <div class="px-3 py-2 bg-dark text-white">
-          <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+  <header>
+    <div class="px-3 py-2 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <li>
+              <a href="../index.html" class="nav-link text-secondary">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
+                Inicio
               </a>
-    
-              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                <li>
-                  <a href="../index.html" class="nav-link text-secondary">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
-                    Inicio
-                  </a>
-                </li>
-                <li>
-                  <a href="servicios.html" class="nav-link text-white">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
-                    Servicios
-                  </a>
-                </li>
-                <li>
-                  <a href="trayectos.html" class="nav-link text-white">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
-                    Trayectos
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link text-white">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
-                    Contacto
-                  </a>
-                </li>
-                <li>
-                  <a href="iniciar_session.html" class="nav-link text-white">
-                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
-                    Iniciar Session
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+            </li>
+            <li>
+              <a href="servicios.html" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
+                Servicios
+              </a>
+            </li>
+            <li>
+              <a href="trayectos.html" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
+                Trayectos
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
+                Contacto
+              </a>
+            </li>
+            <li>
+              <a href="iniciar_session.html" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
+                Iniciar Session
+              </a>
+            </li>
+          </ul>
         </div>
-    </header>
+      </div>
+    </div>
+</header>
+
+
+<div class="comunicate"> 
+  <h2>Comunicate con nosotros</h2>
+<h4>Tu opinón cuenta</h4>
+</div>
+<div class="imagencont">
+  <img src="/assets/res/drawable/index/ImageContacto.jpg" >
+
+</div>
+
+
+<form>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Comentanos su experiencia</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Acepto el uso de mis datos</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
 </body>
 <script src="/lib/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
 </html>

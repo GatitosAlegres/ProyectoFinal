@@ -13,14 +13,17 @@ body {
     transition: 2s;
 }
 
-.container {
-    
-}
-
 img {
     width: 100%;
     height: auto;
 }
+
+
+*****contactanos********************
+.comunicate div{
+  border: red solid 6px;
+}
+
 
 /*==================== 
   Footer 
