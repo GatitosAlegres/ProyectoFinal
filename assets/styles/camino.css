@@ -1,4 +1,17 @@
-h1{
+.letra{
     text-align: center;
 }
 
+.titulo{
+    text-align: center;
+}
+
+.liga{
+    text-align: center;
+    border-radius: 70px;
+    
+}
+
+.col-12{
+    
+}
