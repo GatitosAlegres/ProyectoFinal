@@ -27,16 +27,30 @@
     height: 32rem;
   }
 
-  /* .ImageContainer{
-    background-image: url(../res/drawable/index/Wallpaper.jfif);
-    color: white;
-  } */
-h1{
-  border: red solid 4px;
-
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswalds";
 }
 
-  
+.imagen{
+  position: relative;
+  margin: auto;
+  width: 1520px;
+  height: 700px;
+  background-image: url(../res/drawable/index/Wallpaper.jfif)
+}
+
+
+ h1{
+  position: absolute;
+  left: 30px;
+  top: 300px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
   
   /* MARKETING CONTENT
   -------------------------------------------------- */
