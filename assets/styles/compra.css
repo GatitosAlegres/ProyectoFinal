@@ -1,0 +1,8 @@
+body {
+    background:url(/assets/res/drawable/compra/ImageArequipa.jpg) fixed;
+    color: white;
+}
+
+#formulario {
+    padding: 10%;
+}
