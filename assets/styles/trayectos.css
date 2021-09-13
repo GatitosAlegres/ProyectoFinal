@@ -1,5 +1,29 @@
 img{ max-width:100%;}
 
+.imgArequipa{
+    height: auto; width: auto; max-width: 600px; max-height: 700px;
+}
+
+.imgCajamarca{
+
+}
+
+.imgCusco{
+
+}
+
+.imgNazca{
+
+}
+
+.imgPucallpa{
+
+}
+
+.imgTrujillo{
+
+}
+
 .gallery_box li{ width:33.33333333%; max-width: 100% ; display:inline-block; float: left; text-align: center; overflow: hidden;    position: relative;}
 .gallery_box{ padding:0;display: flow-root;}
 
