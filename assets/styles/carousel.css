@@ -1,21 +1,18 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 
-  /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
-  
-  /* Carousel base class */
+*{
+  font-family: 'Noto Sans JP', sans-serif !important;
+}
   .carousel {
     margin-bottom: 5.5rem;
   }
-  /* Since positioning the image, we need to help out the caption */
+  
   .carousel-caption {
     bottom: 3rem;
     z-index: 10;
   }
   
-  /* Declare heights because of positioning of img element */
+ 
   .carousel-item {
     height: 32rem;
   }

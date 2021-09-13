@@ -1,31 +1,10 @@
-/* .comunicate{
-    padding-top: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 
-.imagencont{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-right: auto;
-    width:490px;
-    height: auto;
-    margin: auto; 
-}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-form{
-    margin-left: 515px;
-    margin-right: 500px;
-    padding-bottom: 15px;
+*{
+  font-family: 'Noto Sans JP', sans-serif !important;
 }
-
-.envia{
-    text-align: center;
-}
-
-.fondo{
-    background-color: rgba(81, 81, 90, 0.171);
-} */
 
 body {
 	margin:0;
@@ -80,10 +59,6 @@ body{
     box-shadow:none;
 }
 
-/*futer*/
-
-/* Footer */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
     padding: 60px 0;
 }

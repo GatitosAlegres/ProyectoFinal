@@ -1,17 +1,6 @@
-.letra{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+*{
+  font-family: 'Noto Sans JP', sans-serif !important;
 }
 
-.titulo{
-    text-align: center;
-}
-
-.liga{
-    text-align: center;
-    border-radius: 70px;
-    
-}
-
-.col-12{
-    
-}
