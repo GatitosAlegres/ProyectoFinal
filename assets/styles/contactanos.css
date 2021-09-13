@@ -68,6 +68,9 @@ section .section-title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
+.col-md-12 p{
+    color: white;
+}
 
 
 

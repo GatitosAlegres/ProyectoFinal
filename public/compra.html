@@ -10,6 +10,9 @@
       href="../lib/bootstrap-5.0.2-dist/css/bootstrap.css"
     />
     <link rel="stylesheet" href="/assets/styles/compra.css">
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/scripts/reserva.js"></script>
+    
   </head>
   <body>
     <header>
@@ -75,7 +78,7 @@
                   <svg class="menu" width="24" height="24">
                     <use xlink:href="#table" />
                   </svg>
-                  Trayectos
+                  Destinos
                 </a>
               </li>
               <li>
@@ -169,7 +172,7 @@
               <input
                 type="number"
                 class="form-control"
-                id="email"
+                id="dni"
               />
             
             </div>
@@ -183,23 +186,23 @@
                   id="country"
                   required
                 >
-                  <option>Lima</option>
+                <option>Arequipa</option>
+                <option>Cusco</option>
+                <option>Nazca</option>
+                <option>Tacna</option>
+                <option>Chiclayo</option>
                 </select>
               </div>
               <div class="col-md-3 mb-3">
                 <label for="state">Hacia</label>
                 <select
                   class="custom-select d-block w-100"
-                  id="state"
+                  id="destino_select"
                   required
                 >
-                  <option>Arequipa</option>
+                  <option>Trujillo</option>
                   <option>Piura</option>
-                  <option>Cusco</option>
-                  <option>Nazca</option>
-                  <option>Tacna</option>
                   <option>Pucallpa</option>
-                  <option>Chiclayo</option>
                 </select>
               </div>
               <div class="col-md-3 mb-3">
@@ -215,7 +218,7 @@
               </div>
             </div>
             <hr class="mb-4" />
-            <button class="btn btn-primary btn-lg btn-block" type="submit">
+            <button class="btn btn-primary btn-lg btn-block" type="submit" id="verificar">
               Vericar Reserva
             </button>
           </form>
@@ -224,9 +227,5 @@
     </div>        
   </body>
   <script src="/lib/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
+  <script src="/assets/scripts/app.js"></script>
 </html>

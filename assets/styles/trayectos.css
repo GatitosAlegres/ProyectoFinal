@@ -15,21 +15,6 @@ img {
   max-height: 700px;
 }
 
-.imgCajamarca {
-}
-
-.imgCusco {
-}
-
-.imgNazca {
-}
-
-.imgPucallpa {
-}
-
-.imgTrujillo {
-}
-
 .gallery_box li {
   width: 33.33333333%;
   max-width: 100%;
@@ -87,4 +72,6 @@ img {
 .gallery_box li:hover .box_data {
   background: rgba(255, 0, 39, 0.55);
 }
+
+
 
